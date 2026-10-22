@@ -1,0 +1,6 @@
+{
+  "name": "8 Ball Pool Master",
+  "description": "High-fidelity 8-ball pool billiards game with realistic physics, spin control, aiming trajectory, and AI opponents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="feltGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="55%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#022c22" />
+    </radialGradient>
+    <radialGradient id="ballGrad" cx="35%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="28%" stop-color="#1e293b" />
+      <stop offset="72%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emerald Tournament Felt Background with Gold Bezel -->
+  <rect width="512" height="512" rx="112" fill="url(#feltGrad)" />
+  <rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="url(#rimGrad)" stroke-width="10" opacity="0.85" />
+
+  <!-- Drop Shadow -->
+  <ellipse cx="268" cy="396" rx="135" ry="34" fill="#000000" opacity="0.45" />
+
+  <!-- 3D Glossy 8-Ball Sphere -->
+  <circle cx="256" cy="252" r="164" fill="url(#ballGrad)" />
+
+  <!-- Specular Highlight -->
+  <ellipse cx="196" cy="176" rx="56" ry="34" transform="rotate(-28 196 176)" fill="#ffffff" opacity="0.28" />
+  <ellipse cx="184" cy="166" rx="24" ry="13" transform="rotate(-28 184 166)" fill="#ffffff" opacity="0.65" />
+
+  <!-- White Number Circle -->
+  <circle cx="256" cy="256" r="72" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4" />
+
+  <!-- Number 8 -->
+  <text
+    x="256"
+    y="286"
+    font-family="Outfit, system-ui, -apple-system, sans-serif"
+    font-size="92"
+    font-weight="900"
+    text-anchor="middle"
+    fill="#0f172a"
+  >8</text>
+</svg>
